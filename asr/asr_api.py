@@ -84,7 +84,7 @@ def transcribe_audio():
     # Get the audio file from the request
     audio_file = request.files['file']
 
-    # Save the audio file to a temporary location
+    # Save the audio file to a temporary directory for processing
     temp_file_path = 'temp.mp3'
     audio_file.save(temp_file_path)
 
@@ -104,4 +104,6 @@ def transcribe_audio():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8001)
+    # Host '0.0.0.0' is used for docker allows the API to be accessed from any IP address
+    app.run(debug=True, host='0.0.0.0', port=8001) 
+    
