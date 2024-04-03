@@ -1,6 +1,7 @@
 # htx_tt
 
 Each directory contains a README file for set up and run instructions for that particular task.
+
 "helper" directory contains "unzip.py" that can assist with unzipping large zip files.
 
 # Setting up conda environment
