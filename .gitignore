@@ -1,1 +1,9 @@
 asr/common_voice/
+.vscode/
+common_voice/
+asr-train/cv-valid-dev
+asr-train/cv-valid-train
+asr-train/cv-valid-test
+asr-train/cv-valid-train-wav
+asr-train/results
+asr-train/wav2vec2-large-960h-cv

@@ -7,8 +7,8 @@ def unzip_file(zip_file, destination_folder):
 
 if __name__ == "__main__":
     # Specify the path to the zip file and the destination folder
-    zip_file_path = 'common_voice.zip'
-    destination_folder = 'common_voice'
+    zip_file_path = '../common_voice.zip'
+    destination_folder = '../common_voice'
 
     if not os.path.exists(destination_folder):
         os.makedirs(destination_folder)
