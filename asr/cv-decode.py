@@ -39,7 +39,7 @@ if __name__ == "__main__":
     api_url = "http://localhost:8001/asr"  
 
     # Specify the directory containing the audio files
-    audio_files_dir = "common_voice/cv-valid-dev/cv-valid-dev"
+    audio_files_dir = "cv-valid-dev"
 
     index = 2557
 
