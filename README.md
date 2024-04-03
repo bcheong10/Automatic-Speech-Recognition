@@ -1,4 +1,4 @@
-# htx_tt
+# HTX Technical Assessment
 
 Each directory contains a README file for set up and run instructions for that particular task.
 
