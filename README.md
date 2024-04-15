@@ -1,4 +1,4 @@
-# HTX Technical Assessment
+# ASR Project
 
 Each directory contains a README file for set up and run instructions for that particular task.
 
